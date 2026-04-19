@@ -152,3 +152,54 @@ footer {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
 }
+
+/* designs page */
+
+
+.about-section {
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #76a8c5;
+  border-radius: 12px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-family: 'Tenor Sans', sans-serif;
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.about-section p {
+  font-family: 'Tenor Sans', sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  max-width: 800px;
+  margin: 0 auto 25px;
+}
+
+
+.mockup-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  margin-top: 25px;
+}
+
+.mockup-post {
+  background: white;
+  border-radius: 14px;
+  padding: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.mockup-post img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
